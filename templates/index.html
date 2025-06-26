@@ -62,7 +62,7 @@
             const data = await res.json();
             const msg = `Video uploaded. Frames extracted: ${data.frames_saved}`;
             document.getElementById('video-message').textContent = msg;
-            fileInput.value = "";  // reset input
+            fileInput.value = "";  
         });
     </script>
 </body>

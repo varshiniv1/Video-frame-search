@@ -2,7 +2,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, PointStruct
 import numpy as np
 
-client = QdrantClient(":memory:")  # Or use `host="localhost", port=6333` for persistent
+client = QdrantClient(":memory:")  
 
 COLLECTION_NAME = "frames"
 
