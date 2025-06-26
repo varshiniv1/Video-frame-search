@@ -82,3 +82,16 @@ The purpose of this project is to demonstrate the ability to:
 git clone https://github.com/your-username/video-frame-search
 cd video-frame-search
 ```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Server
+```bash
+uvicorn app.main:app --reload
+```
+### 4. Open in Browser
+Visit:
+http://127.0.0.1:8000
+
+
